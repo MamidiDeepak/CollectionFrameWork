@@ -1,6 +1,6 @@
 package com.ATB7xPackage;
 
-public class Lab011 {
+public class ReversalOfAString {
 
     public static void main(String[] args) {
 
