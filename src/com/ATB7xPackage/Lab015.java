@@ -1,6 +1,6 @@
 package com.ATB7xPackage;
 
-public class Lab15 {
+public class Lab015 {
     public static void main(String[] args) {
 
         String name = "Deepak";
