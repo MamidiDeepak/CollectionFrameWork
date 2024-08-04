@@ -1,4 +1,4 @@
-package com.ATB7xPackage;
+package ATB7xPackage;
 
 public class Lab003 {
     public static void main(String[] args) {
