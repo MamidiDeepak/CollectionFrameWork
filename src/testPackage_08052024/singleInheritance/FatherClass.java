@@ -1,14 +1,9 @@
-package testPackage_08052024;
+package testPackage_08052024.singleInheritance;
 
 public class FatherClass {
 
     String fatherName;
     int fatherAge;
-
-    FatherClass(String na, int fa){
-        this.fatherName = na;
-        this.fatherAge = fa;
-    }
 
     void fatherMethod(){
         System.out.println(fatherName);
