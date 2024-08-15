@@ -4,22 +4,22 @@ public class TeslaModel extends  Engine{
 
 
     @Override
-    void Start() {
+   public void Start() {
         System.out.println("starts automatically when doors closed");
     }
 
     @Override
-    void Stop() {
+    public void Stop() {
         System.out.println("stops automatically when doors closed");
     }
 
     @Override
-    void gearsInCar() {
+    protected void gearsInCar() {
         System.out.println("Tesla has auto gear System");
     }
 
     @Override
-    void keys() {
+    public void keys() {
         System.out.println("Tesla does not required keys");
     }
 }
