@@ -1,11 +1,9 @@
 package aug15thCompleteOopsPractice.Interface;
 
-public class RunClass {
-
+public class RunClass extends Son {
     public static void main(String[] args) {
-        ClassTwo sct = new ClassTwo();
-        sct.startEngine();
-        sct.stopEngine();
 
+        Son son = new Son();
+        son.drive();
     }
 }
