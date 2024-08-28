@@ -1,9 +1,8 @@
 package aug28th;
 
-import javax.swing.text.html.parser.Entity;
 import java.util.*;
 
-public class HashTablePractice {
+public class MapPractice {
     public static void main(String[] args) {
 
        Map<Integer, String> m = new LinkedHashMap<>();

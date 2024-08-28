@@ -1,0 +1,36 @@
+package aug28th;
+
+import java.util.LinkedList;
+import java.util.*;
+
+public class ListPractice {
+    public static void main(String[] args) {
+
+        List<Integer> l = new LinkedList<>();
+//        Add elements to List
+        l.add(10);
+        l.add(20);
+        l.add(30);
+
+//        Retrieve elements from list
+        System.out.println(l.get(0));
+
+//        Verify elements from list
+        System.out.println(l.contains(20));
+
+//        Update element in the List
+
+        l.set(0,100);
+        System.out.println(l.get(0));
+
+//        Delete element from list
+        System.out.println(l);
+        l.remove(0);
+        System.out.println(l);
+
+
+
+
+
+    }
+}
