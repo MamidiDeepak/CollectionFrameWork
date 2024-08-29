@@ -1,6 +1,7 @@
 package aug26th;
 
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.Vector;
 
 public class VectorPractice {
@@ -43,6 +44,5 @@ public class VectorPractice {
         System.out.println(v);
         System.out.println(v.removeAll(v1));
         System.out.println(v);
-
     }
 }

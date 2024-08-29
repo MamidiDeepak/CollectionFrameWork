@@ -12,6 +12,12 @@ public class ListPractice {
         l.add(20);
         l.add(30);
 
+        ArrayList<Integer> ds = new ArrayList<>();
+        ds.add(342);
+
+        l.addAll(ds);
+        System.out.println(l);
+
 //        Retrieve elements from list
         System.out.println(l.get(0));
 
