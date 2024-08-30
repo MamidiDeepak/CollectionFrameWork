@@ -1,5 +1,6 @@
 package aug30th;
 
+
 import java.util.*;
 
 public class Lab238 {
@@ -17,8 +18,8 @@ public class Lab238 {
         arrayList.add(s4);
 //        System.out.println(arrayList);
         // Collections.sort(arrayList); // Comparable
-//        Collections.sort(arrayList, new SortByID());
-        Collections.sort(arrayList, new SortByName());
+        Collections.sort(arrayList, new SortByID());
+//        Collections.sort(arrayList, new SortByName());
 //        Collections.sort(arrayList, new SortByIDDesc());
 //        Collections.sort(arrayList, new SortByNameDesc());
         System.out.println(arrayList);
@@ -101,3 +102,6 @@ class Student {
 //        return CharSequence.compare(this.name, another.name);
 //    }
 }
+
+
+
