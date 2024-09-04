@@ -1,6 +1,7 @@
 package sep04th.Set;
 
 import java.util.HashSet;
+import java.util.Iterator;
 import java.util.LinkedHashSet;
 import java.util.TreeSet;
 
@@ -34,6 +35,11 @@ public class HashSetP {
 //        ts.add(null);
 
         System.out.println(ts);
+
+        Iterator i = ts.iterator();
+        while (i.hasNext()){
+            System.out.println(i.next());
+        }
 
     }
 }
