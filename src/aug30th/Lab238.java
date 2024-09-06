@@ -24,7 +24,6 @@ public class Lab238 {
 //        Collections.sort(arrayList, new SortByNameDesc());
         System.out.println(arrayList);
 
-
     }
 }
 
@@ -85,10 +84,7 @@ class Student {
 
     @Override
     public String toString() {
-        return "Student{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                '}';
+        return "Student{" + "id=" + id + ", name='" + name + '\'' +'}';
     }
 
 
