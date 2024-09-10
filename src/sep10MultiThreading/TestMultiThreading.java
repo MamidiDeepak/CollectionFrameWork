@@ -34,21 +34,23 @@ public class TestMultiThreading {
 //        Type-4
         Runnable runnable1 = () -> {
             for(int i=0;i<5;i++) {
-                System.out.println("Running from lambda-1 class");
+                System.out.println("Running from lambda-1 class "+Thread.currentThread().getName()+" "
+                        +Thread.currentThread().getId());
             }
         };
 
-        Thread t2 = new Thread(runnable1);
+        Thread t2 = new Thread(runnable1,"Deepak");
 
 
 //        Type-5
         Runnable runnable2 = () -> {
             for (int i=0;i<5;i++) {
-                System.out.println("Running from lambda-2 class");
+                System.out.println("Running from lambda-2 class "+Thread.currentThread().getName()+" "
+                        +Thread.currentThread().getId());
             }
         };
 
-        Thread t3 = new Thread(runnable2);
+        Thread t3 = new Thread(runnable2, "Mamidi");
         System.out.println(t3.getState());
 
         t2.start();
