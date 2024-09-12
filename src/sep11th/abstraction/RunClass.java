@@ -8,5 +8,8 @@ public class RunClass extends Maruti {
         System.out.println("_______________");
         Tesla t = new Tesla();
         t.drive();
+
+        Gears g = new Tesla();
+        g.abc();
     }
 }

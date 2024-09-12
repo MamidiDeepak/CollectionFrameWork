@@ -7,6 +7,7 @@ public class Maruti extends Engine{
         startEngine();
         stopEngine();
         gearBox();
+        brakes();
     }
 
     @Override
@@ -17,6 +18,11 @@ public class Maruti extends Engine{
     @Override
     void stopEngine() {
         System.out.println("rotate keys to stop engine");
+    }
+
+    @Override
+    void brakes() {
+        System.out.println("Maruti has manual braking system");
     }
 
     @Override

@@ -7,6 +7,7 @@ public class Tesla extends Engine{
         startEngine();
         stopEngine();
         gearBox();
+        brakes();
     }
 
     @Override
@@ -17,6 +18,11 @@ public class Tesla extends Engine{
     @Override
     void stopEngine() {
         System.out.println("Tesla no keys to stop engine");
+    }
+
+    @Override
+    void brakes() {
+        System.out.println("Tesla has auto braking system");
     }
 
     @Override
