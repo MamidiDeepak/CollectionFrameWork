@@ -25,9 +25,9 @@ public class PrintDayName {
         }else if (dayName.equalsIgnoreCase("Friday")) {
             System.out.println("Uff, it's a Weekday "+dayName);
         }else if (dayName.equalsIgnoreCase("Saturday")) {
-            System.out.println("Yayy, it's a Weekend "+dayName);
+            System.err.println("Yayy, it's a Weekend "+dayName);
         }else {
-            System.out.println("Yayy, it's a Weekend "+dayName);
+            System.err.println("Yayy, it's a Weekend "+dayName);
         }
 
 
