@@ -13,7 +13,7 @@ public class FindingResultBasedOnGrade {
 
         System.out.println("Enter marks will give Grade.");
         Scanner sc = new Scanner(System.in);
-        Integer a = sc.nextInt();
+        int a = sc.nextInt();
 
         if(a<35){
             System.out.println("Failed");
@@ -26,6 +26,5 @@ public class FindingResultBasedOnGrade {
         }else {
             System.out.println("First Class");
         }
-
     }
 }
